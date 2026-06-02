@@ -7,17 +7,6 @@ A 3D animated office visualization of the 106-agent autonomous AI company.
 - **Post-processing**: Bloom, Chromatic Aberration, Vignette
 - **Live data**: Polls SwarmClaw v2 API for real-time agent status
 - **Chat terminal**: Route commands to any C-Suite agent directly from the dashboard
-- **Deploy**: Cloudflare Pages (static export, free tier)
 
-## Setup
-```bash
-npm install
-cp .env.example .env.local
-npm run dev
-```
-
-## Deploy to Cloudflare Pages
-1. Connect this repo to Cloudflare Pages
-2. Build command: `npm run build`
-3. Output directory: `out`
-4. Set env var: `NEXT_PUBLIC_SWARMCLAW_URL=https://mavado-mavado-swarmclaw.hf.space`
+## Last Updated
+2026-06-02 — Bot runtime fixed, dashboard rebuild triggered
